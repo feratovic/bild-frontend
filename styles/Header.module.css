@@ -1,0 +1,36 @@
+.header {
+  padding: 10px;
+  text-align: center;
+}
+
+.info {
+  border-bottom: 1px solid #dadada;
+  padding: 20px 0px;
+  margin-left: 0;
+}
+
+.info > div {
+  padding-left: 0;
+}
+
+.media {
+  margin-top: 15px;
+}
+
+#navigation {
+  margin: 20px 0px;
+}
+
+@media screen and (min-width: 770px) {
+  .header {
+    width: 82%;
+    padding-left: 0;
+    text-align: initial;
+  }
+
+  .media {
+    padding-right: 0px;
+    text-align: right;
+    margin-top: 0;
+  }
+}
