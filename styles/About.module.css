@@ -1,0 +1,23 @@
+#header {
+  background-color: var(--green);
+  text-transform: uppercase;
+  min-height: 100px;
+}
+
+#header > h2 {
+  padding-top: 25px;
+  color: white;
+  text-align: center;
+}
+
+#content {
+  border: 1px solid black;
+  min-height: 50vh;
+}
+
+@media screen and (min-width: 770px) {
+  #header > h2 {
+    text-align: left;
+    margin-left: 9%;
+  }
+}

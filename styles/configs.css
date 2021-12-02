@@ -1,0 +1,18 @@
+:root {
+  --green: #2ecc71;
+  --orange: #f39c12;
+  --soft-orange: #f5aa34;
+  --gray: #322f2f;
+  --soft-gray: #efefef;
+  --blue-media: #00bbf5;
+  --dark-gray: #737373;
+  --footer-color-font: #8a8888;
+
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+
+  --font-size-sm: 0.5rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 2rem;
+}

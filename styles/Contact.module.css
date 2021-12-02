@@ -1,0 +1,96 @@
+#header {
+  background-color: var(--green);
+  text-transform: uppercase;
+  min-height: 100px;
+}
+
+#header > h2 {
+  padding-top: 25px;
+  color: white;
+  text-align: center;
+}
+
+#map {
+  max-height: 500px;
+}
+
+#contact {
+  width: 75%;
+  margin: 70px auto;
+  color: var(--footer-color-font);
+  font-size: 14px;
+}
+
+.field_input {
+  border: 2px solid var(--dark-gray);
+  border-radius: 0;
+  width: 75%;
+}
+
+.field_textarea {
+  border: 2px solid var(--dark-gray);
+  border-radius: 0;
+  width: 100%;
+}
+
+#custom_button {
+  width: 160px;
+  padding: 10px;
+  border: none;
+  background-color: var(--green);
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.msg_success {
+  animation: showMessage 4s;
+  color: var(--green);
+}
+
+#email {
+  color: var(--green);
+}
+
+#email:hover {
+  color: var(--blue-media);
+}
+
+#information {
+  margin-top: 40px;
+}
+
+@media screen and (min-width: 770px) {
+  #header > h2 {
+    text-align: left;
+    margin-left: 9%;
+  }
+
+  #information {
+    margin-top: 0px;
+  }
+}
+
+@keyframes showMessage {
+  0% {
+    transform: translateY(-300%);
+    opacity: 0;
+  }
+  40% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  60% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-300%);
+    opacity: 0;
+  }
+}
