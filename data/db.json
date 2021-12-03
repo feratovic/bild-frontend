@@ -3,6 +3,8 @@
     {
       "id": "491cee0d-17f9-4629-ac33-0dd8ef985b8a",
       "title": "Work",
+      "header": "CHECK OUT WHAT I CAN DO",
+      "description": "Work page",
       "content": {
          "categories" :[
           "All",  "Print"  ,  "Photography"  , "Web"  ,  "Applications"
@@ -42,10 +44,12 @@
       "id": "491cee0d-17f9-4629-ac33-0ad8ef125b8a",
       "title": "About",
       "header": "About My Business",
+      "description": "About page",
       "content":{
         "about":
           {
           "image": "/images/Clip.png",
+          "alt": "About",
            "text": [
              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu erat lacus, vel congue mauris. Fusce velit justo, faucibus eu sagittis ac, gravida quis tortor. Suspendisse non urna mi, quis tincidunt eros. Nullam tellus turpis, fringilla sit amet congue ut, luctus a nulla. Donec sit amet sapien neque, id ullamcorper diam. Nulla facilisi. Pellentesque pellentesque arcu a elit congue lacinia.             " ,
              "Nullam tellus turpis, fringilla sit amet congue ut, luctus a nulla. Donec sit amet sapien neque, id ullamcorper diam. Nulla facilisi. Pellentesque pellentesque arcu a elit congue lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu erat lacus, vel congue mauris. Fusce velit justo, faucibus eu sagittis ac, gravida quis tortor. Suspendisse non urna mi, quis tincidunt eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
@@ -109,146 +113,146 @@
     {
      "title": "Animals",
      "cover": "/images/img.png",
-     "description": "Image of animals",
+     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt dolor et tristique bibendum. Aenean sollicitudin vitae dolor ut posuere.",
      "alt": "Animals",
      "link": "www.google.com",
      "category": "Print" 
     },
     {
-     "title": "Animals",
+     "title": "Mixer",
      "cover": "/images/img2.png",
-     "description": "Image of animals",
-     "alt": "Animals",
+     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt dolor et tristique bibendum. Aenean sollicitudin vitae dolor ut posuere.",
+     "alt": "Mixer",
      "link": "www.google.com",
      "category": "Print" 
     },
     {
-     "title": "Animals",
+     "title": "Couple",
      "cover": "/images/img3.png",
-     "description": "Image of animals",
-     "alt": "Animals",
+     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt dolor et tristique bibendum. Aenean sollicitudin vitae dolor ut posuere.",
+     "alt": "Couple",
      "link": "www.google.com",
      "category": "Print" 
     },
     {
-     "title": "Animals",
+     "title": "Couple",
      "cover": "/images/img3.png",
-     "description": "Image of animals",
-     "alt": "Animals",
+     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt dolor et tristique bibendum. Aenean sollicitudin vitae dolor ut posuere.",
+     "alt": "Couple",
      "link": "www.google.com",
      "category": "Print" 
     },
     {
-     "title": "Animals",
+     "title": "Cartoon",
      "cover": "/images/img4.png",
-     "description": "Image of animals",
-     "alt": "Animals",
+     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt dolor et tristique bibendum. Aenean sollicitudin vitae dolor ut posuere.",
+     "alt": "Cartoon",
      "link": "www.google.com",
      "category": "Print" 
     },
     {
-     "title": "Animals",
+     "title": "Media",
      "cover": "/images/img5.png",
-     "description": "Image of animals",
-     "alt": "Animals",
+     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt dolor et tristique bibendum. Aenean sollicitudin vitae dolor ut posuere.",
+     "alt": "Media",
      "link": "www.google.com",
      "category": "Web" 
     },
     {
-     "title": "Animals",
+     "title": "Jesus",
      "cover": "/images/img6.png",
-     "description": "Image of animals",
-     "alt": "Animals",
+     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt dolor et tristique bibendum. Aenean sollicitudin vitae dolor ut posuere.",
+     "alt": "Jesus",
      "link": "www.google.com",
      "category": "Print" 
     },
     {
-     "title": "Animals",
+     "title": "Animation",
      "cover": "/images/img7.png",
-     "description": "Image of animals",
-     "alt": "Animals",
+     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt dolor et tristique bibendum. Aenean sollicitudin vitae dolor ut posuere.",
+     "alt": "Animation",
      "link": "www.google.com",
      "category": "Print" 
     }
     ,
     {
-     "title": "Animals",
+     "title": "Bang",
      "cover": "/images/img8.png",
-     "description": "Image of animals",
-     "alt": "Animals",
+     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt dolor et tristique bibendum. Aenean sollicitudin vitae dolor ut posuere.",
+     "alt": "Bang",
      "link": "www.google.com",
      "category": "Web" 
     },
     {
       "title": "Animals",
       "cover": "/images/img.png",
-      "description": "Image of animals",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt dolor et tristique bibendum. Aenean sollicitudin vitae dolor ut posuere.",
       "alt": "Animals",
       "link": "www.google.com",
       "category": "Print" 
      },
      {
-      "title": "Animals",
+      "title": "Mixer",
       "cover": "/images/img2.png",
-      "description": "Image of animals",
-      "alt": "Animals",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt dolor et tristique bibendum. Aenean sollicitudin vitae dolor ut posuere.",
+      "alt": "Mixer",
       "link": "www.google.com",
       "category": "Print" 
      },
      {
-      "title": "Animals",
+      "title": "Couple",
       "cover": "/images/img3.png",
-      "description": "Image of animals",
-      "alt": "Animals",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt dolor et tristique bibendum. Aenean sollicitudin vitae dolor ut posuere.",
+      "alt": "Couple",
       "link": "www.google.com",
       "category": "Photography" 
      },
      {
-      "title": "Animals",
+      "title": "Couple",
       "cover": "/images/img3.png",
-      "description": "Image of animals",
-      "alt": "Animals",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt dolor et tristique bibendum. Aenean sollicitudin vitae dolor ut posuere.",
+      "alt": "Couple",
       "link": "www.google.com",
       "category": "Photography" 
      },
      {
-      "title": "Animals",
+      "title": "Cartoon",
       "cover": "/images/img4.png",
-      "description": "Image of animals",
-      "alt": "Animals",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt dolor et tristique bibendum. Aenean sollicitudin vitae dolor ut posuere.",
+      "alt": "Cartoon",
       "link": "www.google.com",
       "category": "Photography" 
      },
      {
-      "title": "Animals",
+      "title": "Media",
       "cover": "/images/img5.png",
-      "description": "Image of animals",
-      "alt": "Animals",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt dolor et tristique bibendum. Aenean sollicitudin vitae dolor ut posuere.",
+      "alt": "Media",
       "link": "www.google.com",
       "category": "Web" 
      },
      {
-      "title": "Animals",
+      "title": "Jesus",
       "cover": "/images/img6.png",
-      "description": "Image of animals",
-      "alt": "Animals",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt dolor et tristique bibendum. Aenean sollicitudin vitae dolor ut posuere.",
+      "alt": "Jesus",
       "link": "www.google.com",
       "category": "Print" 
      },
      {
-      "title": "Animals",
+      "title": "Animation",
       "cover": "/images/img7.png",
-      "description": "Image of animals",
-      "alt": "Animals",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt dolor et tristique bibendum. Aenean sollicitudin vitae dolor ut posuere.",
+      "alt": "Animation",
       "link": "www.google.com",
       "category": "Web" 
      }
      ,
      {
-      "title": "Animals",
+      "title": "Bang",
       "cover": "/images/img8.png",
-      "description": "Image of animals",
-      "alt": "Animals",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt dolor et tristique bibendum. Aenean sollicitudin vitae dolor ut posuere.",
+      "alt": "Bang",
       "link": "www.google.com",
       "category": "Web" 
      }

@@ -2,7 +2,7 @@
   background-color: var(--green);
   text-transform: uppercase;
   min-height: 100px;
-  padding: 10px;
+  padding: 10px 0px;
 }
 
 #header > div > h2 {

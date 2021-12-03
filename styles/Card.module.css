@@ -1,0 +1,106 @@
+.custom_card {
+  min-width: 320px;
+  height: 220px;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+.custom_card_list {
+  margin: 10px auto;
+  cursor: pointer;
+  width: 95%;
+  background-color: var(--soft-gray);
+  padding: 0;
+  height: 350px;
+}
+
+.image_container {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.custom_card_list > .image_container {
+  width: 100%;
+  height: 50%;
+}
+
+.card_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.452);
+  display: none;
+}
+
+.image_container:hover > .card_overlay {
+  display: block;
+}
+
+.card_overlay > div {
+  width: 100px;
+  height: 100px;
+  background-color: var(--green);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card_overlay > div > a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.body {
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.body > p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@media screen and (min-width: 770px) {
+  .custom_card {
+    min-width: 280px;
+    width: 33%;
+  }
+
+  .custom_card_list {
+    height: 220px;
+    width: 100%;
+  }
+
+  .image_container {
+    height: 100%;
+  }
+
+  .custom_card_list > .image_container {
+    width: 35%;
+    height: 100%;
+  }
+
+  .body {
+    text-align: left;
+    width: 62%;
+    position: relative;
+    top: -90%;
+    left: 38%;
+  }
+
+  .body > p {
+    text-overflow: unset;
+    white-space: pre-wrap;
+  }
+}
