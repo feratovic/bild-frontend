@@ -6,7 +6,7 @@ import {GridLayoutIcon, ListLayoutIcon} from '../common/icons';
 import Card from '../components/Card';
 import Layout from '../components/Layout';
 import Loader from '../components/Loader';
-import SideCard from '../components/SideCard';
+
 import styles from '../styles/Work.module.css';
 
 export default function Work({data, works}) {
@@ -53,15 +53,18 @@ export default function Work({data, works}) {
   return (
     <Layout>
       <Head>
-        <title>Work</title>
-        <meta property="og:title" content="Page about my work" key="title" />
+        <title>{data.title || ''}</title>
+        <meta property="og:title" content={data.title || ''} key="title" />
+        <meta name="description" content={data.description || ''} />
       </Head>
       <div id={styles.header}>
-        <h2>Check Out What I can Do</h2>
+        <div className="container p-0 ml-0">
+          <h2>{data.header || ''}</h2>
+        </div>
       </div>
-      <div className={` container ${styles.works}`}>
+      <div className={`container ${styles.works}`}>
         <div className="row" id={styles.options}>
-          <div className={`col-7 ${styles.categories}`}>
+          <div className={`col-7  ${styles.categories}`}>
             {categories.map((item, index) => {
               return (
                 <React.Fragment key={item}>
@@ -98,17 +101,17 @@ export default function Work({data, works}) {
           </div>
         </div>
 
-        <div className=" row p-0 mn-1 ">
+        <div className=" row p-0">
           <InfiniteScroll
             dataLength={count}
             next={getMorePost}
             hasMore={hasMore}
             loader={count > 0 && <Loader />}
-            className=" row p-0 mn-1  "
+            className=" row p-2 justify-content-between"
           >
             {projects && projects.length > 0 ? (
               projects.map((item, index) => {
-                return grid ? (
+                return (
                   <Card
                     key={index}
                     src={item.cover}
@@ -116,17 +119,7 @@ export default function Work({data, works}) {
                     title={item.title}
                     description={item.description}
                     link={item.link}
-                    stlye={grid}
-                  />
-                ) : (
-                  <SideCard
-                    key={index}
-                    src={item.cover}
-                    alt={item.alt}
-                    title={item.title}
-                    description={item.description}
-                    link={item.link}
-                    stlye={grid}
+                    grid={grid}
                   />
                 );
               })

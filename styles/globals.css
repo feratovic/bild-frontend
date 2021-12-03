@@ -69,102 +69,6 @@ main {
   border: 1px solid black;
 }
 
-.card {
-  height: 220px;
-  min-width: 300px;
-  width: 30%;
-  position: relative !important;
-  top: 0;
-  left: 0;
-  margin: 2vw auto;
-  cursor: pointer;
-  animation: showCard 3s;
-}
-
-.card-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(255, 255, 255, 0.308);
-  color: black;
-  display: none;
-}
-
-.card:hover .card-overlay {
-  display: block;
-}
-
-.card-overlay > a {
-  width: 100px;
-  height: 100px;
-  position: absolute;
-  top: 30%;
-  left: 35%;
-  background-color: var(--green);
-  border-radius: 50%;
-}
-
-.card-overlay > a > svg {
-  position: relative;
-  top: 30%;
-  left: 33%;
-}
-
-.card-layout {
-  width: 85%;
-  height: 300px;
-  margin: auto;
-  margin-bottom: 20px;
-  background-color: var(--soft-gray);
-  animation: showCard 3s;
-}
-
-.image-container {
-  min-width: 300px;
-  width: 100%;
-  height: 200px;
-  position: relative !important;
-  top: 0;
-  left: 15px;
-  margin-left: -15px;
-}
-
-.card-overlay-side {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: var(--footer-color-font);
-  display: none;
-}
-
-.image-container:hover .card-overlay-side {
-  display: block;
-}
-
-.card-overlay-side > a {
-  width: 100px;
-  height: 100px;
-  position: absolute;
-  top: 30%;
-  left: 25%;
-  background-color: var(--green);
-  border-radius: 50%;
-}
-
-.card-overlay-side > a > svg {
-  position: relative;
-  top: 30%;
-  left: 33%;
-}
-
-.body {
-  padding: 20px;
-}
-
 #loader {
   width: 100%;
   text-align: center;
@@ -183,30 +87,6 @@ main {
 @media screen and (min-width: 770px) {
   .container {
     width: 70%;
-  }
-
-  .card-layout {
-    width: 95.5%;
-    height: 220px;
-  }
-
-  .image-container {
-    height: 100%;
-    width: 300px;
-    left: 0;
-  }
-
-  .card-overlay-side > a {
-    left: 35%;
-  }
-}
-
-@keyframes showCard {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
   }
 }
 
