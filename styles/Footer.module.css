@@ -3,23 +3,25 @@
   font-family: var(--novocento-font), sans-serif;
   color: white;
   text-align: center;
+  background-color: var(--gray);
 }
 
 .banner {
-  background-color: var(--gray);
-  padding: 50px 0px;
+  min-height: 150px;
 }
 
 .banner > div {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 24px;
+  margin-top: 40px;
 }
 
 #button_container {
   text-align: center;
   padding: 0;
   margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 #button_container > button {
@@ -35,10 +37,13 @@
 
 .copyrights {
   background-color: var(--soft-gray);
-  padding: 20px 0px;
   color: var(--footer-color-font);
   font-weight: 600;
   font-size: 12px;
+}
+
+.copyrights > div > div {
+  padding: 20px 0px;
 }
 
 #footer_links {
@@ -59,9 +64,13 @@
     text-align: left;
   }
 
+  .banner > div {
+    margin: 0;
+  }
+
   #button_container {
     text-align: right;
-    margin-top: 0px;
+    margin: 0px;
   }
 
   #footer_links {

@@ -13,11 +13,28 @@
     {
       "id": "491cee0d-17f9-4629-ac33-0dd8ef125b8a",
       "title": "Contact",
+      "header": "Got a Question or Inquiry?",
+      "description": "Contact page",
       "content": {
           "email": "info@display.com",
           "phone": "1.306.222.4545",
           "address": "222 2nd Ave South",
-          "address2": " Saskabush, SK S7M 1T6"
+          "address2": " Saskabush, SK S7M 1T6",
+          "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt dolor et tristique bibendum. Aenean sollicitudin vitae dolor ut posuere.",
+          "paragraph2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit velit justo.",
+          "contact": "Contact Form",
+          "info": "Contact Info",
+          "store_hours": "Store Hours",
+          "days": ["Monday - Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday & Holidays"],
+          "hours": [
+            "8 am - 5 pm",
+            "8 am - 6 pm",
+            "9 am - 5 pm",
+            "Closed"
+          ]
       },
       "children": []
     },
@@ -25,7 +42,8 @@
       "id": "491cee0d-17f9-4629-ac33-0ad8ef125b8a",
       "title": "About",
       "header": "About My Business",
-      "content":[
+      "content":{
+        "about":
           {
           "image": "/images/Clip.png",
            "text": [
@@ -33,15 +51,15 @@
              "Nullam tellus turpis, fringilla sit amet congue ut, luctus a nulla. Donec sit amet sapien neque, id ullamcorper diam. Nulla facilisi. Pellentesque pellentesque arcu a elit congue lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu erat lacus, vel congue mauris. Fusce velit justo, faucibus eu sagittis ac, gravida quis tortor. Suspendisse non urna mi, quis tincidunt eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
            ]
           },
-          {
+          "mission":{
              "title": "Mission Statement",
              "text": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu erat lacus, vel congue mauris. Fusce velit justo, faucibus eu sagittis ac, gravida quis tortor. Suspendisse non urna mi, quis tincidunt eros. Nullam tellus turpis, fringilla sit amet congue ut, luctus a nulla. Donec sit amet sapien neque, id ullamcorper diam. Nulla facilisi. Pellentesque pellentesque arcu a elit congue lacinia."]
           },
-            {
+            "facts":{
              "title": "Fun Facts",
              "text": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu erat lacus, vel congue mauris. Fusce velit justo, faucibus eu sagittis ac, gravida quis tortor. Suspendisse non urna mi, quis tincidunt eros. Nullam tellus turpis, fringilla sit amet congue ut, luctus a nulla. Donec sit amet sapien neque, id ullamcorper diam. Nulla facilisi. Pellentesque pellentesque arcu a elit congue lacinia."]
            },
-            {
+            "services":{
             "title": "Services",
             "content": [
               {
@@ -83,7 +101,7 @@
             ]
 
            }
-          ],
+      },
       "children": []
     }
   ],

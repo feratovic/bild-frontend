@@ -15,9 +15,11 @@ export default function About({data}) {
         <meta property="og:title" content="Page about" key="title" />
       </Head>
       <div id={styles.header}>
-        <h2>{data.header || ''}</h2>
+        <div className="container p-0 ml-0  ">
+          <h2>{data.header || ''}</h2>
+        </div>
       </div>
-      <div id={styles.content} className="container p-0 ml-0"></div>
+      <div id={styles.content} className="container  border"></div>
     </Layout>
   );
 }
