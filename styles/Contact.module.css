@@ -2,12 +2,13 @@
   background-color: var(--green);
   text-transform: uppercase;
   min-height: 100px;
+  padding: 10px;
 }
 
-#header > h2 {
-  padding-top: 25px;
+#header > div > h2 {
   color: white;
   text-align: center;
+  margin-top: 20px;
 }
 
 #map {
@@ -15,16 +16,15 @@
 }
 
 #contact {
-  width: 75%;
-  margin: 70px auto;
   color: var(--footer-color-font);
   font-size: 14px;
+  padding: 20px;
 }
 
 .field_input {
   border: 2px solid var(--dark-gray);
   border-radius: 0;
-  width: 75%;
+  width: 100%;
 }
 
 .field_textarea {
@@ -62,13 +62,20 @@
 }
 
 @media screen and (min-width: 770px) {
-  #header > h2 {
+  #header > div > h2 {
     text-align: left;
-    margin-left: 9%;
   }
 
   #information {
     margin-top: 0px;
+  }
+
+  #contact {
+    padding: 0;
+  }
+
+  .field_input {
+    width: 75%;
   }
 }
 
