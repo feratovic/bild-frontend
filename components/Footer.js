@@ -1,7 +1,16 @@
 import Link from 'next/link';
+import {useRouter} from 'next/router';
+
 import styles from '../styles/Footer.module.css';
 
 export default function Footer() {
+  const router = useRouter();
+
+  const changeRoute = (e) => {
+    e.preventDefault();
+
+    router.push('/work');
+  };
   return (
     <div className={styles.footer}>
       <div className="container p-0 ">
@@ -10,7 +19,9 @@ export default function Footer() {
         >
           <div className="col-md-6">Are You Ready To Be Blown Away?</div>
           <div className="col-md-4" id={styles.button_container}>
-            <button>CLICK HERE TO FIND OUT</button>
+            <button onClick={(e) => changeRoute(e)}>
+              CLICK HERE TO FIND OUT
+            </button>
           </div>
         </div>
       </div>

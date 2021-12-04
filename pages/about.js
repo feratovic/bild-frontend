@@ -1,7 +1,13 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import {useState} from 'react';
-import {PhotographyIcon, SEOIcon, SettingsIcon, WEBIcon} from '../common/icons';
+import {
+  PhotographyIcon,
+  RightArrowIcon,
+  SEOIcon,
+  SettingsIcon,
+  WEBIcon,
+} from '../common/icons';
 
 import Layout from '../components/Layout';
 import styles from '../styles/About.module.css';
@@ -58,16 +64,17 @@ export default function About({data}) {
         </h3>
       </div>
       <div id={styles.services}>
-        <div className="container ">
+        <div className="container">
           <div className="row">
             {content.services &&
               content.services.content &&
               content.services.content.map((item, i) => {
                 return (
                   <div
-                    className={`col-3 ${styles.service_item} ${
+                    className={`col-6 col-sm-3 ${styles.service_item} ${
                       active === i && styles.active_service
                     }`}
+                    onClick={(e) => setActive(i)}
                   >
                     <div>
                       {i === 0 && (
@@ -84,7 +91,28 @@ export default function About({data}) {
                 );
               })}
           </div>
-          <div>test</div>
+        </div>
+      </div>
+      <div className="container">
+        <div id={styles.services_list}>
+          <p className="p-0 mt-3">
+            {(content.services &&
+              content.services.content &&
+              content.services.content[active].text) ||
+              ''}
+          </p>
+          <ul>
+            {content.services &&
+              content.services.content &&
+              content.services.content[active].list &&
+              content.services.content[active].list.map((item, i) => {
+                return (
+                  <li key={i}>
+                    <RightArrowIcon height="10" /> {item || ''}
+                  </li>
+                );
+              })}
+          </ul>
         </div>
       </div>
     </Layout>
