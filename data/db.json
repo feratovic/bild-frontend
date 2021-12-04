@@ -3,9 +3,75 @@
     {
       "id": "491ce12d-17f9-4629-ac33-0dd8ef985b8a",
       "title": "Home",
-       "description": "Home page",
+      "description": "Home page",
       "content": {
-          
+          "home":{
+            "image": "/images/home.png",
+            "alt": "Responsive design",
+            "text": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu eratiuy lacus, vel congue mauris. Fusce velitaria justo, faucibus eu."]
+          },
+          "video":{
+            "title": "Get To Know Us a Little Better!",
+            "text": [
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu erat lacus, vel congue mauris. Fusce velit justo, faucibus eu sagittis ac, gravida quis tortor. Suspendisse non urna mi, quis tincidunt eros. Nullam tellus turpis, fringilla sit amet congue ut, luctus a nulla. Donec sit amet sapien neque, id ullamcorper diam. Nulla facilisi. Pellentesque pellentesque arcu a elit congue lacinia.",
+              "Nullam tellus turpis, fringilla sit amet congue ut, luctus a nulla. Donec sit amet sapien neque, id ullamcorper diam. Nulla facilisi. Pellentesque pellentesque arcu a elit congue lacinia."
+            ],
+            "link": "https://www.youtube.com/embed/dQw4w9WgXcQ"  
+          },
+          "slideshow":{
+            "title": "A Couple of Our Featured Projects",
+            "text": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu erat lacus, vel congue mauris. Fusce velit justo, faucibus eu sagittis ac, gravida quis tortor. Suspendisse non urna mi, quis tincidunt eros."]
+          },
+          "projects": [
+            {
+              "title": "Animals",
+              "cover": "/images/img.png",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt dolor et tristique bibendum. Aenean sollicitudin vitae dolor ut posuere.",
+              "alt": "Animals",
+              "link": "www.google.com",
+              "category": "Print" 
+             },
+             {
+              "title": "Mixer",
+              "cover": "/images/img2.png",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt dolor et tristique bibendum. Aenean sollicitudin vitae dolor ut posuere.",
+              "alt": "Mixer",
+              "link": "www.google.com",
+              "category": "Print" 
+             },
+             {
+              "title": "Couple",
+              "cover": "/images/img3.png",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt dolor et tristique bibendum. Aenean sollicitudin vitae dolor ut posuere.",
+              "alt": "Couple",
+              "link": "www.google.com",
+              "category": "Print" 
+             },
+             {
+              "title": "Couple",
+              "cover": "/images/img3.png",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt dolor et tristique bibendum. Aenean sollicitudin vitae dolor ut posuere.",
+              "alt": "Couple",
+              "link": "www.google.com",
+              "category": "Print" 
+             },
+             {
+              "title": "Cartoon",
+              "cover": "/images/img4.png",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt dolor et tristique bibendum. Aenean sollicitudin vitae dolor ut posuere.",
+              "alt": "Cartoon",
+              "link": "www.google.com",
+              "category": "Print" 
+             },
+             {
+              "title": "Media",
+              "cover": "/images/img5.png",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt dolor et tristique bibendum. Aenean sollicitudin vitae dolor ut posuere.",
+              "alt": "Media",
+              "link": "www.google.com",
+              "category": "Web" 
+             }
+          ]
       },
       "children": []
     },
