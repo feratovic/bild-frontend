@@ -1,6 +1,15 @@
 {
   "pages": [
     {
+      "id": "491ce12d-17f9-4629-ac33-0dd8ef985b8a",
+      "title": "Home",
+       "description": "Home page",
+      "content": {
+          
+      },
+      "children": []
+    },
+    {
       "id": "491cee0d-17f9-4629-ac33-0dd8ef985b8a",
       "title": "Work",
       "header": "CHECK OUT WHAT I CAN DO",
@@ -68,7 +77,7 @@
             "content": [
               {
                 "title": "Websites",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu erat lacus, vel congue mauris. Fusce velit justo, faucibus eu sagittis ac, gravida quis tortor. Suspendisse non urna mi, quis tincidunt eros. Nullam tellus turpis, fringilla sit amet congue ut, luctus a nulla. Donec sit amet sapien neque, id ullamcorper diam. Nulla facilisi. Pellentesque pellentesque arcu a elit congue lacinia.",
+                "text": "1Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu erat lacus, vel congue mauris. Fusce velit justo, faucibus eu sagittis ac, gravida quis tortor. Suspendisse non urna mi, quis tincidunt eros. Nullam tellus turpis, fringilla sit amet congue ut, luctus a nulla. Donec sit amet sapien neque, id ullamcorper diam. Nulla facilisi. Pellentesque pellentesque arcu a elit congue lacinia.",
                 "list": [
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit fringilla sit amet.",
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit fringilla sit amet.",
@@ -77,7 +86,7 @@
               },
               {
                 "title": "Photography",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu erat lacus, vel congue mauris. Fusce velit justo, faucibus eu sagittis ac, gravida quis tortor. Suspendisse non urna mi, quis tincidunt eros. Nullam tellus turpis, fringilla sit amet congue ut, luctus a nulla. Donec sit amet sapien neque, id ullamcorper diam. Nulla facilisi. Pellentesque pellentesque arcu a elit congue lacinia.",
+                "text": "2Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu erat lacus, vel congue mauris. Fusce velit justo, faucibus eu sagittis ac, gravida quis tortor. Suspendisse non urna mi, quis tincidunt eros. Nullam tellus turpis, fringilla sit amet congue ut, luctus a nulla. Donec sit amet sapien neque, id ullamcorper diam. Nulla facilisi. Pellentesque pellentesque arcu a elit congue lacinia.",
                 "list": [
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit fringilla sit amet.",
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit fringilla sit amet.",
@@ -86,7 +95,7 @@
               },
               {
                 "title": "SEO",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu erat lacus, vel congue mauris. Fusce velit justo, faucibus eu sagittis ac, gravida quis tortor. Suspendisse non urna mi, quis tincidunt eros. Nullam tellus turpis, fringilla sit amet congue ut, luctus a nulla. Donec sit amet sapien neque, id ullamcorper diam. Nulla facilisi. Pellentesque pellentesque arcu a elit congue lacinia.",
+                "text": "3Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu erat lacus, vel congue mauris. Fusce velit justo, faucibus eu sagittis ac, gravida quis tortor. Suspendisse non urna mi, quis tincidunt eros. Nullam tellus turpis, fringilla sit amet congue ut, luctus a nulla. Donec sit amet sapien neque, id ullamcorper diam. Nulla facilisi. Pellentesque pellentesque arcu a elit congue lacinia.",
                 "list": [
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit fringilla sit amet.",
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit fringilla sit amet.",
@@ -95,7 +104,7 @@
               },
               {
                 "title": "Applications",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu erat lacus, vel congue mauris. Fusce velit justo, faucibus eu sagittis ac, gravida quis tortor. Suspendisse non urna mi, quis tincidunt eros. Nullam tellus turpis, fringilla sit amet congue ut, luctus a nulla. Donec sit amet sapien neque, id ullamcorper diam. Nulla facilisi. Pellentesque pellentesque arcu a elit congue lacinia.",
+                "text": "4Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu erat lacus, vel congue mauris. Fusce velit justo, faucibus eu sagittis ac, gravida quis tortor. Suspendisse non urna mi, quis tincidunt eros. Nullam tellus turpis, fringilla sit amet congue ut, luctus a nulla. Donec sit amet sapien neque, id ullamcorper diam. Nulla facilisi. Pellentesque pellentesque arcu a elit congue lacinia.",
                 "list": [
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit fringilla sit amet.",
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit fringilla sit amet.",

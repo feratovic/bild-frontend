@@ -256,3 +256,22 @@ export const WEBIcon = ({className, width, height, fill, onClick}) => (
     />
   </svg>
 );
+
+export const RightArrowIcon = ({className, width, height, fill, onClick}) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={width || '21'}
+    height={height || '31'}
+    className={className}
+    onClick={onClick}
+    viewBox="0 0 20.998 31.001"
+  >
+    <path
+      id="_"
+      data-name="&gt;"
+      d="M1005.706,1777,1021,1761.5l-15.294-15.5-5.7,5.7,9.667,9.8-9.667,9.8Z"
+      transform="translate(-1000.001 -1745.999)"
+      fill={fill || '#8a8888'}
+    />
+  </svg>
+);
