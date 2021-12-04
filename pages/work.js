@@ -9,6 +9,8 @@ import Loader from '../components/Loader';
 
 import styles from '../styles/Work.module.css';
 
+import {apiUrl} from '../common/config';
+
 export default function Work({data, works}) {
   const categories = data.content ? data.content.categories || [] : [];
   const [projects, setProjects] = useState(works.posts ? works.posts : []);
@@ -136,7 +138,8 @@ export default function Work({data, works}) {
 }
 
 export async function getStaticProps(context) {
-  const res = await fetch('http://localhost:3000/api/pages?title=Work');
+  const url = `${apiUrl()}/pages?title=Work`;
+  const res = await fetch(url);
   const data = await res.json();
 
   const res2 = await fetch(

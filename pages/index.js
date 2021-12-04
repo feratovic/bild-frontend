@@ -9,12 +9,22 @@ import {PlayIcon} from '../common/icons';
 import {useContext} from 'react';
 import {PublicContext} from '../context';
 
+import {apiUrl} from '../common/config';
+import Slideshow from '../components/Slideshow';
+
 export default function Home({data}) {
   const content = data.content || {};
+  const slideshows = data.content ? data.content.projects : [] || [];
+
   const {toggleModal} = useContext(PublicContext);
 
   return (
     <Layout>
+      <Head>
+        <title>{data.title || ''}</title>
+        <meta property="og:title" content={data.title || ''} key="title" />
+        <meta name="description" content={data.description || ''} />
+      </Head>
       <div id={styles.home}>
         <div id={styles.background}></div>
         <div id={styles.image_container}>
@@ -65,12 +75,25 @@ export default function Home({data}) {
           </div>
         </div>
       </div>
+      <div className="container" id={styles.slideshow_header}>
+        <h3>{(content.slideshow && content.slideshow.title) || ''}</h3>
+        {(content.slideshow &&
+          content.slideshow.text &&
+          content.slideshow.text.map((item, i) => {
+            return <p key={i}>{item}</p>;
+          })) ||
+          ''}
+      </div>
+      <div>
+        <Slideshow slideshows={slideshows} />
+      </div>
     </Layout>
   );
 }
 
 export async function getStaticProps(context) {
-  const res = await fetch('http://localhost:3000/api/pages?title=Home');
+  const url = `${apiUrl()}/pages?title=Home`;
+  const res = await fetch(url);
   const data = await res.json();
 
   if (!data) {
