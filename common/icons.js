@@ -275,3 +275,47 @@ export const RightArrowIcon = ({className, width, height, fill, onClick}) => (
     />
   </svg>
 );
+
+export const LeftArrowIcon = ({className, width, height, fill, onClick}) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={width || '21'}
+    height={height || '31'}
+    className={className}
+    onClick={onClick}
+    viewBox="0 0 20.998 31.001"
+  >
+    <path
+      id="left"
+      d="M392.294,1746,377,1761.5l15.294,15.5,5.7-5.7-9.667-9.8,9.667-9.8Z"
+      transform="translate(-377.001 -1745.999)"
+      fill={fill || '#efefef'}
+    />
+  </svg>
+);
+
+export const PlayIcon = ({
+  className,
+  width,
+  opacity,
+  height,
+  fill,
+  onClick,
+}) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={width || '45'}
+    height={height || '65'}
+    className={className}
+    onClick={onClick}
+    viewBox="0 0 45 56"
+  >
+    <path
+      id="play"
+      d="M441.309,1139.023l-32.817,21.946a6.123,6.123,0,0,1-6.263.321,6.049,6.049,0,0,1-3.229-5.344v-43.892a6.049,6.049,0,0,1,3.229-5.344,6.123,6.123,0,0,1,6.263.321l32.817,21.946a6.033,6.033,0,0,1,0,10.046Z"
+      transform="translate(-399 -1106)"
+      fill={fill || '#fff'}
+      opacity={opacity || '0.502'}
+    />
+  </svg>
+);

@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+
 import {useState} from 'react';
 import {
   PhotographyIcon,
@@ -75,6 +76,7 @@ export default function About({data}) {
                       active === i && styles.active_service
                     }`}
                     onClick={(e) => setActive(i)}
+                    key={i}
                   >
                     <div>
                       {i === 0 && (

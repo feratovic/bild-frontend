@@ -1,8 +1,13 @@
 import Footer from './Footer';
 import Header from './Header';
 import Head from 'next/head';
+import {useContext} from 'react';
+import {PublicContext} from '../context';
+import Modal from './Modal';
 
 export default function Layout(props) {
+  const {modal, link} = useContext(PublicContext);
+
   return (
     <div>
       <Head>
@@ -12,6 +17,8 @@ export default function Layout(props) {
       <Header />
       <main>{props.children}</main>
       <Footer />
+
+      {modal && <Modal link={link} />}
     </div>
   );
 }
