@@ -8,6 +8,7 @@ import Layout from '../components/Layout';
 import Map from '../components/Map';
 
 import styles from '../styles/Contact.module.css';
+import {apiUrl} from '../common/config';
 
 export default function Contact({data}) {
   const [values, setValues] = useState({
@@ -217,7 +218,8 @@ export default function Contact({data}) {
 }
 
 export async function getStaticProps(context) {
-  const res = await fetch('http://localhost:3000/api/pages?title=Contact');
+  const url = `${apiUrl()}/pages?title=Contact`;
+  const res = await fetch(url);
   const data = await res.json();
 
   if (!data) {

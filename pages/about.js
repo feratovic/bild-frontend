@@ -13,6 +13,8 @@ import {
 import Layout from '../components/Layout';
 import styles from '../styles/About.module.css';
 
+import {apiUrl} from '../common/config';
+
 export default function About({data}) {
   const content = data.content || {};
   const [active, setActive] = useState(0);
@@ -122,7 +124,8 @@ export default function About({data}) {
 }
 
 export async function getStaticProps(context) {
-  const res = await fetch('http://localhost:3000/api/pages?title=About');
+  const url = `${apiUrl()}/pages?title=About`;
+  const res = await fetch(url);
   const data = await res.json();
 
   if (!data) {
