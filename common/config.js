@@ -11,3 +11,11 @@ export const apiUrl = () => {
     return process.env.DEVELOPMENT_URL;
   else return process.env.PRODUCTION_URL;
 };
+
+export const siteKeyRecaptcha = () => {
+  return process.env.SITE_KEY_RECAPTCHA;
+};
+
+export const secretKeyRecaptcha = () => {
+  return process.env.SECRET_KEY_RECAPTCHA;
+};
