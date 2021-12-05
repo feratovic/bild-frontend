@@ -1,3 +1,33 @@
+@font-face {
+  font-family: 'Novecento Wide Normal';
+  src: url('//db.onlinewebfonts.com/t/4650cd390f041484c279d7298289a68f.eot');
+  src: url('//db.onlinewebfonts.com/t/4650cd390f041484c279d7298289a68f.eot?#iefix')
+      format('embedded-opentype'),
+    url('//db.onlinewebfonts.com/t/4650cd390f041484c279d7298289a68f.woff2')
+      format('woff2'),
+    url('//db.onlinewebfonts.com/t/4650cd390f041484c279d7298289a68f.woff')
+      format('woff'),
+    url('//db.onlinewebfonts.com/t/4650cd390f041484c279d7298289a68f.ttf')
+      format('truetype'),
+    url('//db.onlinewebfonts.com/t/4650cd390f041484c279d7298289a68f.svg#Novecento Wide Normal')
+      format('svg');
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('//db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.eot');
+  src: url('//db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.eot?#iefix')
+      format('embedded-opentype'),
+    url('//db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.woff2')
+      format('woff2'),
+    url('//db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.woff')
+      format('woff'),
+    url('//db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.ttf')
+      format('truetype'),
+    url('//db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.svg#Helvetica Neue')
+      format('svg');
+}
+
 html,
 body {
   padding: 0;
@@ -10,6 +40,23 @@ body {
 
 * {
   box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Novecento Wide Normal';
+  font-weight: bold;
+}
+
+p,
+ul,
+li {
+  font-family: 'Helvetica Neue';
+  font-weight: normal;
 }
 
 a {
