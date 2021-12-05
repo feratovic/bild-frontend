@@ -1,8 +1,23 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
+First, make .env.local file with next options:
+```
+GOOGLE_MAP_API_KEY=ENTER API KEY
 
-First, run the development server:
+DEVELOPMENT_URL=http://localhost:3000/api (use port where is your application running)
+PRODUCTION_URL=Production url
+```
+
+Then use command:
+```
+npm install 
+or
+yarn add
+```
+
+
+Then run the development server:
 
 ```bash
 npm run dev
