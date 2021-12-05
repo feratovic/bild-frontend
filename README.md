@@ -5,7 +5,7 @@ First, make .env.local file with next options:
 ```
 GOOGLE_MAP_API_KEY=ENTER API KEY
 
-DEVELOPMENT_URL=http://localhost:3000/api (use port where is your application running)
+DEVELOPMENT_URL=http://localhost:3000/api (use port on which is your application running)
 PRODUCTION_URL=Production url
 ```
 
