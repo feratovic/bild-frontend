@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Link from 'next/link';
 import Image from 'next/image';
 
 import Layout from '../components/Layout';
@@ -11,6 +10,7 @@ import {PublicContext} from '../context';
 
 import {apiUrl} from '../common/config';
 import Slideshow from '../components/Slideshow';
+import {CustomButton} from '../common/button';
 
 export default function Home({data}) {
   const content = data.content || {};
@@ -44,9 +44,11 @@ export default function Home({data}) {
             content.home.text.map((item, i) => {
               return <p key={i}>{item || ''}</p>;
             })}
-          <Link href="/work">
-            <a id={styles.btn_home}>BROWSE PORTFOLIO</a>
-          </Link>
+          <CustomButton
+            link="work"
+            text="BROWSE PORTFOLIO"
+            id={styles.btn_home}
+          />
         </div>
       </div>
       <div id={styles.video}>

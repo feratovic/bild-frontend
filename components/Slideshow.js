@@ -8,15 +8,26 @@ import 'swiper/css';
 import Image from 'next/image';
 import {LeftArrowIcon, LinkIcon, RightArrowIcon} from '../common/icons';
 import {placeholderImage} from '../common/config';
-import {useState} from 'react';
+import {useEffect, useRef, useState} from 'react';
 
 export default function Slideshow({slideshows}) {
   const [active, setActive] = useState(0);
+  const swipe = useRef(null);
 
   const changeSlide = (e, index) => {
-    if (active + index >= slideshows.length) setActive(0);
-    else if (active + index < 0) setActive(slideshows.length - 1);
-    else setActive(active + index);
+    let temp_swipe = swipe && swipe.current && swipe.current.swiper;
+    let value = 0;
+
+    if (active + index >= slideshows.length) value = 0;
+    else if (active + index < 0) value = slideshows.length - 1;
+    else value = active + index;
+
+    setActive(value);
+
+    if (temp_swipe) {
+      if (index === -1) temp_swipe.slidePrev();
+      else temp_swipe.slideNext();
+    }
   };
 
   return (
@@ -29,6 +40,7 @@ export default function Slideshow({slideshows}) {
       onSwiper={(swiper) => setActive(swiper.realIndex)}
       onSlideChange={(swiper) => setActive(swiper.realIndex)}
       id={styles.slideshow}
+      ref={swipe}
     >
       {slideshows &&
         slideshows.length > 0 &&

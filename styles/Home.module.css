@@ -36,14 +36,6 @@
   animation: showAnimationText 3s;
 }
 
-#home_content > a {
-  padding: 10px 40px;
-  background-color: var(--green);
-  text-transform: uppercase;
-  font-weight: 500;
-  color: white;
-}
-
 #btn_home {
   animation: showAnimationBtn 3s;
 }
