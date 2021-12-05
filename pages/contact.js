@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import React, {useState} from 'react';
+import React, {useContext, useEffect, useState} from 'react';
 
 import {checkIfEmpty, validateEmail} from '../common/functions';
 import {CustomInput, CustomTextArea} from '../common/inputs';
@@ -9,6 +9,8 @@ import Map from '../components/Map';
 
 import styles from '../styles/Contact.module.css';
 import {apiUrl} from '../common/config';
+
+import ReCaptchaV3Google from '../components/ReCaptchaV3';
 
 export default function Contact({data}) {
   const [values, setValues] = useState({
@@ -149,6 +151,8 @@ export default function Contact({data}) {
                   >
                     {warning || ''}
                   </p>
+
+                  <ReCaptchaV3Google />
 
                   <button id={styles.custom_button} onClick={(e) => submit(e)}>
                     SEND MESSAGE
