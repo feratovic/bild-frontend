@@ -7,6 +7,10 @@ GOOGLE_MAP_API_KEY=ENTER API KEY
 
 DEVELOPMENT_URL=http://localhost:3000/api (use port on which is your application running)
 PRODUCTION_URL=Production url
+
+SITE_KEY_RECAPTCHA=ENTER SITE KEY
+SECRET_KEY_RECAPTCHA=ENTER SECRET KEY
+
 ```
 
 Then use command:
