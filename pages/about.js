@@ -89,7 +89,9 @@ export default function About({data}) {
                       )}
                       {i === 2 && <SEOIcon fill={active === i && '#423e3e'} />}
                       {i === 3 && <WEBIcon fill={active === i && '#423e3e'} />}
-                      <p>{item.title || ''}</p>
+                      <p>
+                        <b>{item.title || ''}</b>
+                      </p>
                     </div>
                   </div>
                 );
