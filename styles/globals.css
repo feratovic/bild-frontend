@@ -84,6 +84,22 @@ main {
   margin: 10px;
 }
 
+.btn_class {
+  padding: 10px 40px;
+  background-color: var(--green);
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+  color: white;
+}
+
+.btn_class:hover {
+  color: var(--green);
+  background-color: white;
+  transition: 1s;
+}
+
 @media screen and (min-width: 770px) {
   .container {
     width: 70%;

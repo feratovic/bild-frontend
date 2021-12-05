@@ -24,17 +24,6 @@
   margin-bottom: 40px;
 }
 
-#button_container > button {
-  width: 220px;
-  padding: 10px;
-  border: none;
-  background-color: var(--green);
-  color: white;
-  font-weight: bold;
-  font-size: 14px;
-  text-transform: uppercase;
-}
-
 .copyrights {
   background-color: var(--soft-gray);
   color: var(--footer-color-font);

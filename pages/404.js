@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import {CustomButton} from '../common/button';
 import styles from '../styles/404.module.css';
 
 export default function Custom404() {
@@ -7,9 +7,7 @@ export default function Custom404() {
       <div id={styles.content}>
         <h1>404</h1>
         <h3>Ooops!!!</h3>
-        <Link href="/">
-          <a id={styles.btn}>Go back to Home</a>
-        </Link>
+        <CustomButton text="Go back to Home" link="/" />
       </div>
     </div>
   );
