@@ -27,22 +27,58 @@ export default function Header() {
           />
         </div>
         <div className={`col-sm-6  ${styles.media}`}>
-          <a href="https://twitter.com/?lang=sr" className="media-icon">
+          <a
+            href="https://twitter.com/?lang=sr"
+            className="media-icon"
+            aria-label="twitter"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <TwitterIcon />
           </a>
-          <a href="https://www.facebook.com/" className="media-icon">
+          <a
+            href="https://www.facebook.com/"
+            className="media-icon"
+            aria-label="facebook"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FacebookIcon />
           </a>
-          <a href="https://rss.com/" className="media-icon">
+          <a
+            href="https://rss.com/"
+            className="media-icon"
+            aria-label="rss"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <RSSIcon />
           </a>
-          <a href="https://www.pinterest.com/" className="media-icon">
+          <a
+            href="https://www.pinterest.com/"
+            className="media-icon"
+            aria-label="pinterest"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <PinterestIcon />
           </a>
-          <a href="https://www.google.com/" className="media-icon">
+          <a
+            href="https://www.google.com/"
+            className="media-icon"
+            aria-label="google"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <GoogleIcon />
           </a>
-          <a href="https://dribbble.com/" className="media-icon">
+          <a
+            href="https://dribbble.com/"
+            className="media-icon"
+            aria-label="dribble"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <DribbleIcon />
           </a>
         </div>

@@ -10,10 +10,12 @@ export default function ReCaptchaV3Google() {
   const sendReq = (token) => {
     if (!token) return;
     const url = `https://www.google.com/recaptcha/api/siteverify?secret=${secretKeyRecaptcha()}&response=${token}`;
+
+    /*
     return axios
       .post(url)
       .then((res) => console.log(res))
-      .catch((err) => console.log(err));
+      .catch((err) => console.log(err));*/
   };
   return (
     <GoogleReCaptchaProvider reCaptchaKey={siteKeyRecaptcha()}>

@@ -60,6 +60,8 @@ export default function Home({data}) {
                   onClick={(e) =>
                     toggleModal(true, content.video ? content.video.link : null)
                   }
+                  value=""
+                  name="play"
                 >
                   <PlayIcon />
                 </button>
