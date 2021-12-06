@@ -1,11 +1,13 @@
 import Head from 'next/head';
-import React, {useContext, useEffect, useState} from 'react';
+import dynamic from 'next/dynamic';
+
+import React, {useState} from 'react';
 
 import {checkIfEmpty, validateEmail} from '../common/functions';
 import {CustomInput, CustomTextArea} from '../common/inputs';
 
 import Layout from '../components/Layout';
-import Map from '../components/Map';
+const Map = dynamic(() => import('../components/Map'));
 
 import styles from '../styles/Contact.module.css';
 import {apiUrl} from '../common/config';
@@ -154,7 +156,12 @@ export default function Contact({data}) {
 
                   <ReCaptchaV3Google />
 
-                  <button id={styles.custom_button} onClick={(e) => submit(e)}>
+                  <button
+                    id={styles.custom_button}
+                    onClick={(e) => submit(e)}
+                    value="SEND MESSAGE"
+                    name="submit"
+                  >
                     SEND MESSAGE
                   </button>
                 </div>

@@ -19,7 +19,12 @@ export default function Card({src, alt, title, description, link, grid}) {
         />
         <div className={styles.card_overlay}>
           <div>
-            <a href={link || ''}>
+            <a
+              href={link || ''}
+              aria-label="link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <LinkIcon />
             </a>
           </div>

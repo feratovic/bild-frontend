@@ -63,7 +63,12 @@ export default function Slideshow({slideshows}) {
                 }`}
               >
                 <div>
-                  <a href={item.link || ''}>
+                  <a
+                    href={item.link || ''}
+                    aria-label="link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <LinkIcon />
                   </a>
                 </div>

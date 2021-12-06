@@ -13,16 +13,20 @@ export const CustomInput = ({
 }) => {
   return (
     <div className="form-group mb-3">
-      <input
-        type={type || 'text'}
-        className={`form-control  ${required && ' is-invalid '}  ${className} `}
-        id={name}
-        aria-describedby="emailHelp"
-        placeholder={placeholder || 'Enter text'}
-        onChange={(e) => onChange(e, name)}
-        name={name}
-        value={value}
-      />
+      <label>
+        <input
+          type={type || 'text'}
+          className={`form-control  ${
+            required && ' is-invalid '
+          }  ${className} `}
+          id={name}
+          aria-describedby="emailHelp"
+          placeholder={placeholder || 'Enter text'}
+          onChange={(e) => onChange(e, name)}
+          name={name}
+          value={value}
+        />
+      </label>
     </div>
   );
 };

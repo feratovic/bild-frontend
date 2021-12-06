@@ -15,6 +15,8 @@ export const CustomButton = ({className, id, width, height, text, link}) => {
       className={`btn_class ${className} `}
       id={id}
       style={{width: width, height: height}}
+      value={text}
+      name={text}
     >
       {text}
     </button>
